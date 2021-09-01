@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.regFormContainer{
+    display: flex;
+    height: 400px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.toSignInWrapper, .regFormWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 50px;
+    color: #fff;
+}
+
+.toSignInWrapper{
+    align-items: center;
+    background-image: linear-gradient(to top right, rgb(58,179,151) , rgb(54, 181, 192));
+}
+
+.toSignInTitle{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.toSignInText{
+    max-width: 250px;
+    margin-top: 25px;
+}
+
+.toSignInBtn{
+    background-color: inherit;
+    padding: 10px 35px;
+    border: 2px #fff solid;
+    margin-top: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.regFormTitle{
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(54, 181, 192);
+}
+
+.regForm{
+    margin-top: 50px;
+}
+
+.regFormInput{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 15px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.regFormLogin{
+
+}
+
+.regFormEmail{
+
+}
+
+.regFormPass{
+
+}
+
+.regFormBtn{
+    background-color: inherit;
+    padding: 10px 35px;
+    border: 2px rgb(54, 181, 192) solid;
+    margin-top: 25px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    color:  rgb(54, 181, 192);
+    outline: none;
+}

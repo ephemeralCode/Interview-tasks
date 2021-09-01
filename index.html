@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Interview tasks</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/localServer.js"></script>
+    </head>
+
+    <body>
+        <section>
+            <div class="regFormContainer">
+                <div class="toSignInWrapper">
+                    <p class="toSignInTitle">Welcome back!</p>
+                    <p class="toSignInText">If you already have an account you can login</p>
+
+                    <button class="toSignInBtn">Sign in</button>
+                </div>
+
+                <div class="regFormWrapper">
+                    <p class="regFormTitle">Create an Account</p>
+
+                    <form class="regForm" method="post" action="/registration">
+                        <input class="regFormInput regFormLogin" type="text" pattern=".{2,}" title="You need to enter a username of more than 2 characters" placeholder="Login" name="login" required>
+                        <input class="regFormInput regFormEmail" type="email" placeholder="Email" name="email" required>
+                        <input class="regFormInput regFormPass" type="password" pattern=".{8,}" title="You need at least 8 characters" placeholder="Password" name="pass" required>
+                        
+                        <button class="regFormBtn" type="submit">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
